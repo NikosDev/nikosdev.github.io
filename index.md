@@ -13,6 +13,5 @@ You can @mention a GitHub username to generate a link to their profile. The resu
 ### Support or Contact
 Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-If you want to embed images, this is how you do it:
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+http://github.com - automatic!
+[GitHub](http://github.com)
