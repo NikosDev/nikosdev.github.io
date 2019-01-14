@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #002b38;
+}
+
+.headline {
+    width: 100%;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box-link {
+    outline:none; 
+}
+.box-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    outline:none; 
+}
+
+.container {
+    width: 900px;
+    margin: 200px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 10px;
+    background: #00171d;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 0 0 2px rgba(0, 7, 10, 1);
+    cursor: pointer;
+}
+
+.container .box .icon {
+    width: 100%;
+    height: 100%;
+    background: #00171d;
+    transition: 0.5s;
+}
+
+.container .box .icon .fa {
+    font-size: 4em;
+    line-height: 100px;
+    color: #0ff;
+}
+
+.container .box:hover {
+    animation-name: bounce;
+}
