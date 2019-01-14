@@ -27,7 +27,7 @@ body {
 
 .container {
     width: 900px;
-    margin: 100px auto 0;
+    margin: 80px auto 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -69,6 +69,7 @@ ul {
     padding: 0;
     overflow: hidden;
     font-weight: bold;
+    border-bottom: 1px solid #f0f8ff33;
 }
 
 li {
