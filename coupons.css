@@ -26,7 +26,7 @@ body {
 
 .container {
     width: 900px;
-    margin: 200px auto 0;
+    margin: 100px auto 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -61,3 +61,28 @@ body {
 .container .box:hover {
     animation-name: bounce;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    outline:none; 
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
