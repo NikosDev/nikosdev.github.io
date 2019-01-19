@@ -39,6 +39,7 @@ body {
     border-bottom: 1px solid #ffffff4d;
     padding-bottom: 5px;
     text-align: center;
+    font-weight: bold;
 }
 
 .box-summary.coupon {
