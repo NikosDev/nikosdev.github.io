@@ -39,7 +39,13 @@ body {
     border-bottom: 1px solid #ffffff4d;
     padding-bottom: 5px;
     text-align: center;
-    font-weight: bold;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.box-summary.header a {
+    color: white;
 }
 
 .box-summary.coupon {
@@ -57,7 +63,6 @@ body {
 }
 
 .container {
-    width: 900px;
     margin: 80px auto 0;
     display: flex;
     flex-wrap: wrap;
@@ -73,7 +78,6 @@ body {
     overflow: hidden;
     border-radius: 4px;
     box-shadow: 0 0 0 2px rgba(0, 7, 10, 1);
-    cursor: pointer;
     display: flex;
     flex-flow: wrap;
 }
